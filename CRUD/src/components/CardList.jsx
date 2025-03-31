@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Card from './Card';
-import Search from './search';
+import Search from './Search';
 
 function CardList({ users, showEditModal, deleteUser }) {
   const [searchTerm, setSearchTerm] = useState('');
