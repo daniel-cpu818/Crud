@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './AddEditForm.css';
+import './addEditForm.css';
 const initialValues = {
   first_name: '',  
   last_name: '',
